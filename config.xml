@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.proxy.textgram" version="1.0">
+
+	<name>TEXTGRAM</name>
+	<description>Textgram</description>
+	<author email="proxturt@gmail.com">Pr0xY</author>
+
+		<preference name="permissions" value="none"/>
+	<preference name="android-targetSdkVersion" value="21" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="android-minSdkVersion" value="21" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
+
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
