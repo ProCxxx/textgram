@@ -1,9 +1,9 @@
 <?php
-
+/*
 if(strlen($_COOKIE['username'])>4){
   setcookie("username","xyza",time(),"/");
   header("Location: index.php");
-}
+}*/
 
 $name=$_POST['name'];
 $mail=$_POST['mail'];

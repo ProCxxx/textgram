@@ -45,7 +45,9 @@ width: auto;
 height: auto;
 
 }
-
+html body div.indexdivmain  {
+  width: 40%
+}
 html body div.maindiv span p{
   font-size: 1.5em;
   color:rgba(222,22,22,0.5);
