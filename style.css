@@ -41,9 +41,9 @@ html body nav ul li.navli:hover{
 
 html body div.maindiv {
 padding-top: 2.5%;
-width: 40%;
+width: auto;
 height: auto;
-margin: auto;
+
 }
 
 html body div.maindiv span p{

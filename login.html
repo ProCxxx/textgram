@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
 <title>TEXTGRAM</title>
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="main.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -21,15 +20,14 @@
   </nav>
   <div class="maindiv">
     <center>
-    <form class="contact" method="post" action="php.php">
+    <form action="login.php" method="post">
       <table>
-        <tr><td>Name: </td><td><input type="text" id="a" name="name" required autofocus onclick="a();"></td></tr>
-        <tr><td>E-mail: </td><td><input type="email" name="mail" required ></td></tr>
-        <tr><td>Message: </td><td><textarea maxlength="4000" id="mes" name="msg" required rows="5" cols="26"  onchange="chang();" onkeyup="kedow();"></textarea></td></tr>
-        <tr><td><input  type="submit" value="Send"></td><td><p id="rem">0</p><p>/4000</p></td></tr>
-        <input type="hidden" name="ret" value="contact.html" ">
+        <tr><td>Username</td><td><input type="text" name="user" required autofocus></td></tr>
+        <tr><td>Password</td><td><input type="password" name="pw" required></td></tr>
+        <tr><td><input type="submit" value="Log in"></td><td><p></p></td></tr>
+      </table>
+    </form>
   </div>
-
 </body>
 </html>
 <!-- Pr0xY -->
