@@ -51,4 +51,8 @@ html body div.maindiv span p{
   color:rgba(222,22,22,0.5);
   text-align: justify;
 }
+
+html body div.maindiv form table tr td p{
+  display: inline;
+}
 /* Pr0xY */
