@@ -12,13 +12,13 @@ $msg=$_POST['msg'];
 
 
 
-$servername = "localhost";
-$username = "proxy";
-$password = "proxy123";
-$dbname = "proxy";
+$hostname = 'localhost';
+$username = 'prox';
+$password = 'cartown12';
+$dbname = 'proxy';
 
 
-$conn = mysqli_connect($servername, $username, $password,$dbname);
+$conn = mysqli_connect($hostname, $username, $password,$dbname);
 
 
 if (!$conn) {
